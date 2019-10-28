@@ -1,0 +1,148 @@
+.halo16_header{
+    @include margin(0 0 15px 0,0.90);
+    h2{
+        margin:0;
+    }
+    p{
+        @include margin(5px 0 0 0,0.90);
+        @include scaleFontSize(22px, 0.90);
+    }
+}
+
+.halo16_content{
+    a{
+        font-weight: bold;
+    }
+    ul,ol{
+        @include scaleFontSize(16px, 0.90);
+        @include margin(0 0 10px 0,0.90);
+    }
+    ul{
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    ol{
+        list-style-type: decimal;
+        padding-left: 20px;
+
+    }
+}
+
+
+.halo16_widget{
+	-webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+	padding:30px 0;
+    @include mq(sm) {
+        padding:30px 0;
+    }
+    @include mq(md) {
+        padding:45px 0;
+    }
+    @include mq(lg) {
+        padding:60px 0;
+    }
+}
+
+.halo16_image,
+.halo16_shortcode,
+.halo16_map{
+    margin-top:15px;
+    @include mq(sm){
+        margin-top:0;
+    }
+}
+
+
+.halo16_widget.style_1{
+  background: $halo16-style1-background;
+  .halo16_header{
+    h2{
+      color: $halo16-style1-title-color;
+    }
+    p{
+      color:  $halo16-style1-subtitle-color;
+    }
+  }
+  .halo16_content{
+
+     color: $halo16-style1-content-color;
+
+	a{
+		color: $halo16-style1-link-color;
+	}
+	h1,h2,h3,h4,h5{
+		//color:$halo16-style1-subtitle-color;
+	}
+  }
+}
+
+.halo16_widget.style_2{
+  background: $halo16-style2-background;
+  .halo16_header{
+    h2{
+      color: $halo16-style2-title-color;
+    }
+    p{
+      color:  $halo16-style2-subtitle-color;
+    }
+  }
+  .halo16_content{
+
+    color: $halo16-style2-content-color;
+
+  	a{
+  		color: $halo16-style2-link-color;
+  	}
+  	h1,h2,h3,h4,h5{
+  		//color:$halo16-style1-subtitle-color;
+  	}
+  }
+
+}
+
+.halo16_widget.style_3{
+  background: $halo16-style3-background;
+  .halo16_header{
+    h2{
+      color: $halo16-style3-title-color;
+    }
+    p{
+      color:  $halo16-style3-subtitle-color;
+    }
+  }
+  .halo16_content{
+
+    color: $halo16-style3-content-color;
+
+  	a{
+  		color: $halo16-style3-link-color;
+  	}
+  	h1,h2,h3,h4,h5{
+  		//color:$halo16-style3-subtitle-color;
+  	}
+  }
+}
+
+.halo16_map{
+
+	.halo16_map_container{
+		position:relative;
+		padding-bottom: 80%;
+		@include mq(sm) {
+			padding-bottom: 60%;
+		}
+		@include mq(md) {
+			padding-bottom: 80%;
+		}
+	}
+
+	.halo16_map_canvas{
+		position: absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+	}
+}

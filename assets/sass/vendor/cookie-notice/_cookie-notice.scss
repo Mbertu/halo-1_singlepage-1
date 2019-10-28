@@ -1,0 +1,9 @@
+#cookie-notice{
+	color:$cookie-notice-color !important;
+	background: $cookie-notice-background !important;
+	.button {
+		background: $cookie-notice-button-background !important;
+		color:$cookie-notice-button-color !important;
+		text-shadow: none !important;
+	}
+}

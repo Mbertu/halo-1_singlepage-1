@@ -1,0 +1,511 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: halo-1_blog\n"
+"POT-Creation-Date: 2016-10-18 11:33+0200\n"
+"PO-Revision-Date: 2016-10-18 11:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:102
+msgid "Created by"
+msgstr "Creato da"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:105
+msgid "with"
+msgstr "con"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:136
+msgid "Post pages:"
+msgstr "Pagine post:"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:414
+msgid "Menu"
+msgstr "Menu"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:415
+msgid "Skip to content"
+msgstr "Salta al contenuto"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:474
+msgid "Prev."
+msgstr "Prec."
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:484
+msgid "Next"
+msgstr "Succ."
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:518
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:536
+#: views/abstracts/halo1-abstract-frontend-view.php:388
+#: views/abstracts/halo1-abstract-frontend-view.php:407
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:519
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:537
+#: views/abstracts/halo1-abstract-frontend-view.php:389
+#: views/abstracts/halo1-abstract-frontend-view.php:408
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti vecchi"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:520
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:538
+#: views/abstracts/halo1-abstract-frontend-view.php:390
+#: views/abstracts/halo1-abstract-frontend-view.php:409
+msgid "Newer Comments &rarr;"
+msgstr "Commenti recenti &rarr;"
+
+#: controllers/abstracts/halo1-abstract-frontend-controller.php:543
+#: views/abstracts/halo1-abstract-frontend-view.php:414
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: controllers/halo1-404-controller.php:15
+msgid "404 - Not Found"
+msgstr "404 - Non trovata"
+
+#: controllers/halo1-404-controller.php:16
+msgid "Sorry, but we can't find the content you are looking for."
+msgstr "Siamo spiacenti, ma non riusciamo a trovare il contenuto cercato."
+
+#: controllers/halo1-404-controller.php:18
+msgid "Go back to Home Page."
+msgstr "Ritorna alla home page."
+
+#: controllers/halo1-archive-controller.php:22
+msgid "Monthly Archives:"
+msgstr "Archivi Mensili:"
+
+#: controllers/halo1-archive-controller.php:22
+msgid "F Y"
+msgstr "F Y"
+
+#: controllers/halo1-archive-controller.php:24
+msgid "Yearly Archives:"
+msgstr "Archivi Annuali:"
+
+#: controllers/halo1-archive-controller.php:24
+msgid "Y"
+msgstr "Y"
+
+#: controllers/halo1-archive-controller.php:28
+msgid "Archives"
+msgstr "Archivi"
+
+#: controllers/halo1-archive-controller.php:32
+msgid "No posts in this archive."
+msgstr "Nessun post in questo archivio."
+
+#: controllers/halo1-author-controller.php:19
+msgid "Author email"
+msgstr "Email autore"
+
+#: controllers/halo1-author-controller.php:23
+msgid "Author website url"
+msgstr "Sito web autore"
+
+#: controllers/halo1-author-controller.php:29
+msgid "Google Plus Profile"
+msgstr "Profilo Google Plus"
+
+#: controllers/halo1-author-controller.php:33
+msgid "Facebook Profile"
+msgstr "Profilo Facebook"
+
+#: controllers/halo1-author-controller.php:37
+msgid "Twitter Profile"
+msgstr "Profilo Twitter"
+
+#: controllers/halo1-author-controller.php:43
+msgid "No posts for this author."
+msgstr "Nessun post per questo autore."
+
+#: controllers/halo1-category-controller.php:19
+msgid "No posts in this category."
+msgstr "Nessun post in questa categoria."
+
+#: controllers/halo1-contacts-theme-config-controller.php:18
+msgid "Contacts"
+msgstr "Contatti"
+
+#: controllers/halo1-contacts-theme-config-controller.php:19
+msgid "Halo1 Contacts"
+msgstr "Halo1 Contatti"
+
+#: controllers/halo1-contacts-theme-config-controller.php:29
+msgid "Contacts configuration for the template"
+msgstr "Configurazione contatti per il template"
+
+#: controllers/halo1-contacts-theme-config-controller.php:34
+msgid "Company name"
+msgstr "Azienda"
+
+#: controllers/halo1-contacts-theme-config-controller.php:35
+msgid "Mobile phone number"
+msgstr "Cellulare"
+
+#: controllers/halo1-contacts-theme-config-controller.php:36
+msgid "Phone number"
+msgstr "Telefono fisso"
+
+#: controllers/halo1-contacts-theme-config-controller.php:37
+msgid "Fax number"
+msgstr "Numero fax"
+
+#: controllers/halo1-contacts-theme-config-controller.php:38
+msgid "Email address"
+msgstr "Email"
+
+#: controllers/halo1-contacts-theme-config-controller.php:39
+msgid "Address"
+msgstr "Via"
+
+#: controllers/halo1-contacts-theme-config-controller.php:40
+msgid "Country"
+msgstr "Nazione"
+
+#: controllers/halo1-contacts-theme-config-controller.php:41
+msgid "City"
+msgstr "Città"
+
+#: controllers/halo1-contacts-theme-config-controller.php:42
+msgid "VAT number"
+msgstr "Partita IVA"
+
+#: controllers/halo1-contacts-theme-config-controller.php:113
+#: controllers/halo1-general-theme-config-controller.php:348
+#: controllers/halo1-socials-theme-config-controller.php:106
+#: controllers/halo1-tracking-theme-config-controller.php:89
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: controllers/halo1-find-us-controller.php:20
+#: controllers/halo1-home-page-controller.php:34
+#: controllers/halo1-page-controller.php:28
+#: controllers/halo1-posts-list-controller.php:22
+#: controllers/halo1-single-controller.php:35
+msgid "Continue reading..."
+msgstr "Continua a leggere..."
+
+#: controllers/halo1-general-theme-config-controller.php:14
+msgid "Template Configs"
+msgstr "Configurazione Template"
+
+#: controllers/halo1-general-theme-config-controller.php:15
+msgid "Halo1 Template Configs"
+msgstr "Halo1 Configurazione Template"
+
+#: controllers/halo1-general-theme-config-controller.php:25
+msgid "General configuration for the template"
+msgstr "Configurazione generale per il template"
+
+#: controllers/halo1-general-theme-config-controller.php:30
+msgid "Site main logo"
+msgstr "Logo sito"
+
+#: controllers/halo1-general-theme-config-controller.php:31
+msgid "No image"
+msgstr "No image"
+
+#: controllers/halo1-general-theme-config-controller.php:32
+msgid "Site favicon (16 x 16)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:33
+msgid "Site favicon (32 x 32)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:34
+msgid "Site favicon (96 x 96)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:35
+msgid "Apple icon (57 x 57)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:36
+msgid "Apple icon (60 x 60)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:37
+msgid "Apple icon (72 x 72)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:38
+msgid "Apple icon (76 x 76)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:39
+msgid "Apple icon (114 x 114)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:40
+msgid "Apple icon (120 x 120)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:41
+msgid "Apple icon (144 x 144)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:42
+msgid "Apple icon (152 x 152)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:43
+msgid "Apple icon (180 x 180)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:44
+msgid "Android icon (192 x 192)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:45
+msgid "MS Tile Image (144 x 144)"
+msgstr ""
+
+#: controllers/halo1-general-theme-config-controller.php:60
+msgid "Wrong mime type for Main Logo Image"
+msgstr "Tipologia mime errata per l'immagine del logo."
+
+#: controllers/halo1-general-theme-config-controller.php:70
+msgid "No Image upload error."
+msgstr "Errore caricamento No Image"
+
+#: controllers/halo1-general-theme-config-controller.php:74
+msgid "Wrong mime type or dimension for No Image"
+msgstr "Tipologia mime o dimensioni errate per No Image"
+
+#: controllers/halo1-general-theme-config-controller.php:88
+#: controllers/halo1-general-theme-config-controller.php:102
+#: controllers/halo1-general-theme-config-controller.php:116
+msgid "Wrong mime type or dimension for"
+msgstr "Tipologia mime o dimensioni errate per"
+
+#: controllers/halo1-general-theme-config-controller.php:130
+#: controllers/halo1-general-theme-config-controller.php:144
+#: controllers/halo1-general-theme-config-controller.php:158
+#: controllers/halo1-general-theme-config-controller.php:172
+#: controllers/halo1-general-theme-config-controller.php:186
+#: controllers/halo1-general-theme-config-controller.php:200
+#: controllers/halo1-general-theme-config-controller.php:214
+#: controllers/halo1-general-theme-config-controller.php:228
+#: controllers/halo1-general-theme-config-controller.php:242
+#: controllers/halo1-general-theme-config-controller.php:256
+#: controllers/halo1-general-theme-config-controller.php:270
+msgid "Wrong mime type or dimension for Favicon"
+msgstr "Tipologia mime o dimensioni errate per Favicon"
+
+#: controllers/halo1-posts-list-controller.php:31
+msgid "No posts in this blog."
+msgstr "Nessun post in questo blog."
+
+#: controllers/halo1-search-controller.php:16
+msgid "Results for:"
+msgstr "Risultati per:"
+
+#: controllers/halo1-search-controller.php:17
+msgid "No results for this search."
+msgstr "Nessun risultato per questa ricerca."
+
+#: controllers/halo1-socials-theme-config-controller.php:14
+msgid "Socials"
+msgstr "Socials"
+
+#: controllers/halo1-socials-theme-config-controller.php:15
+msgid "Halo1 Socials"
+msgstr "Halo1 Socials"
+
+#: controllers/halo1-socials-theme-config-controller.php:25
+msgid "Social Network Urls configuration for the template"
+msgstr "Configurazione  urls dei social per il template"
+
+#: controllers/halo1-socials-theme-config-controller.php:30
+msgid "Facebook page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:31
+msgid "Twitter profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:32
+msgid "G+ page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:33
+msgid "Pinterest profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:34
+msgid "Instagram profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:35
+msgid "LinkedIn profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:36
+msgid "Youtube channel URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:37
+msgid "Vimeo channel URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:38
+msgid "Apple app store profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:39
+msgid "Google paly store page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:40
+msgid "Windows store page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:41
+msgid "Vkontakte page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:42
+msgid "Ekoodo profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:43
+msgid "GitHub profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:44
+msgid "Bitbucket profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:45
+msgid "Flickr page URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:46
+msgid "Booking profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:47
+msgid "Tripadvisor profile URL"
+msgstr ""
+
+#: controllers/halo1-socials-theme-config-controller.php:61
+#, php-format
+msgid "Wrong url for %s profile"
+msgstr "Url errato per il profilo %s"
+
+#: controllers/halo1-subtitle-metabox-controller.php:135
+msgid "Input here the subtitle"
+msgstr "Inserisci qui il sottotitolo"
+
+#: controllers/halo1-theme-controller.php:429
+msgid "Main Menu"
+msgstr ""
+
+#: controllers/halo1-theme-controller.php:430
+msgid "Pages Menu"
+msgstr ""
+
+#: controllers/halo1-theme-controller.php:431
+msgid "Privacy Menu"
+msgstr ""
+
+#: controllers/halo1-tracking-theme-config-controller.php:14
+msgid "Tracking"
+msgstr ""
+
+#: controllers/halo1-tracking-theme-config-controller.php:15
+msgid "Halo1 Tracking"
+msgstr ""
+
+#: controllers/halo1-tracking-theme-config-controller.php:25
+msgid "Tracking code configuration"
+msgstr ""
+
+#: controllers/halo1-tracking-theme-config-controller.php:30
+msgid "Google Analytics Code"
+msgstr ""
+
+#: controllers/halo1-tracking-theme-config-controller.php:44
+msgid "Wrong value for the Google Analytics tracking code"
+msgstr ""
+
+#: includes/halo1-factory.php:72
+msgid "Wrong controller category."
+msgstr ""
+
+#: includes/halo1-factory.php:124
+msgid "Wrong model name:"
+msgstr ""
+
+#: includes/halo1-factory.php:160
+msgid "Wrong view name:"
+msgstr ""
+
+#: includes/halo1-walker-comments.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: views/abstracts/halo1-abstract-frontend-view.php:208
+msgid "Vat"
+msgstr "P.Iva"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:337
+msgid "First"
+msgstr "Primo"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:364
+msgid "Last"
+msgstr "Ultimo"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:382
+msgid "Comments:"
+msgstr "Commenti:"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:420
+msgid "Leave a Reply"
+msgstr "Rispondi"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:453
+msgid "Posted by"
+msgstr "Pubblicato da"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:455
+msgid "on"
+msgstr "il"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:465
+#: views/halo1-single-view.php:202
+msgid "Categories"
+msgstr "Categorie"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:476
+#: views/halo1-single-view.php:213
+msgid "Tags"
+msgstr "Tags"
+
+#: views/abstracts/halo1-abstract-frontend-view.php:553
+msgid "Read"
+msgstr "Leggi"
+
+#: views/halo1-find-us-view.php:52
+msgid "No valid address configuration."
+msgstr "Indirizzo configurazione non valido."
+
+#~ msgid "Search for:"
+#~ msgstr "Ricerca per:"
+
+#~ msgid "Search..."
+#~ msgstr "Cerca..."

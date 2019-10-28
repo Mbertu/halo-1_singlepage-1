@@ -1,0 +1,89 @@
+#halo8_container{
+	position:relative;
+	.vegas-container{
+		padding-bottom: 47% !important;
+		height: 0 !important;
+	}
+
+	.vegas-wrapper{
+		padding: 0 !important;
+		display: flex;
+		align-items: center;
+	}
+
+	.slider_controls_cell{
+		clear: both;
+	}
+
+	.slider_controls_container{
+		width: 100%;
+		.right,
+		.left{
+			text-align: center;
+			background: none !important;
+			position: relative !important;
+			@include transition(color 0.2s linear);
+			color: $global-halo8-arrow-color;
+			&::before{
+				display: block;
+				font-family: $icon-font;
+				@include scaleFontSize(35px, 0.85);
+			}
+			&:hover{
+				@include transition(color 0.2s linear);
+				color: $global-halo8-arrow-color-hover;
+			}
+		}
+
+		.right{
+			float: right;
+			&::before{
+				content: '\f054';
+			}
+		}
+		.left{
+			float: left;
+			&::before{
+				content: '\f053';
+			}
+		}
+	}
+
+	.slide_description_container{
+
+		@include mq(sm) {
+			position: absolute;
+			bottom: 10%;
+			left: 50%;
+			@include transform(translateX(-50%));
+		}
+
+	}
+
+	.slide_description{
+		color: $global-halo8-slide-description-color;
+		text-align: center;
+		font-family: $special-font;
+		padding: 15px;
+		@include scaleFontSize(25px, 0.80);
+		a{
+			color: $global-halo8-slide-description-color;
+		}
+		@include mq(sm) {
+			padding: 0;
+			color: $global-halo8-sm-slide-description-color;
+			@include text-shadow(rgba($global-halo8-shoadow, 0.2) 1px 1px 0,rgba($global-halo8-shoadow, 0.2) 2px 2px 0,rgba($global-halo8-shoadow, 0.2) 3px 3px 0);
+			a{
+				color: $global-halo8-sm-slide-description-color;
+			}
+		}
+	}
+
+	.vegas-timer-progress{
+		background: $global-halo8-progress-bar-color;
+	}
+
+	.vegas-timer{
+		height: 3px;
+	}
+}

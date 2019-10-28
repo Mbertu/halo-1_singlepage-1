@@ -1,0 +1,30 @@
+{
+  "name": "halo-1_singlepage-1",
+  "version": "1.0.0",
+  "authors": [
+    "Michele Bertuccioli <michele@bertuccioli.me>"
+  ],
+  "description": "Halo1 project, optimized for single page website",
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "http://michele.bertuccioli.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6",
+    "components-font-awesome": "~4.6.0",
+    "wowjs": "~1.1.2",
+    "animate.css": "~3.5.2",
+    "magnific-popup": "latest",
+    "moment": "~2.24.0",
+    "pikaday": "1.8.0"
+  }
+}

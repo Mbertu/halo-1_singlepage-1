@@ -1,0 +1,105 @@
+@function _scale($xs_value, $scaling_ratio){
+    $map:(
+    xs: $xs_value,
+    sm: round($xs_value / $scaling_ratio),
+    md: round($xs_value / $scaling_ratio / $scaling_ratio),
+    lg: round($xs_value / $scaling_ratio / $scaling_ratio / $scaling_ratio)
+    );
+    @return $map;
+}
+
+@mixin mq($point) {
+    @if $point == xs {
+        @content;
+    }
+    @else if $point == sm {
+        @media screen and ('min-width': $screen-xs-max) { @content; }
+    }
+    @else if $point == md {
+        @media screen and ('min-width': $screen-sm-max) { @content; }
+    }
+    @else if $point == lg {
+        @media screen and ('min-width': $screen-md-max) { @content; }
+    }
+}
+
+@mixin scaleFontSize($size, $scaling_ratio){
+    @if $scaling_ratio == null {
+        $scaling_ratio: $default_scaling_ratio;
+    }
+    $font_size: _scale($size, $scaling_ratio);
+    font-size: map-get($font_size, xs);
+    @include mq(sm){
+        font-size: map-get($font_size, sm);
+    }
+    @include mq(md){
+        font-size: map-get($font_size, md);
+    }
+    @include mq(lg){
+        font-size: map-get($font_size, lg);
+    }
+}
+
+@mixin color_t($color){
+  @include transition(color 0.2s linear);
+  &:hover,
+  &:active,
+  &:focus{
+    color: $color;
+    @include transition(color 0.2s linear);
+  }
+}
+
+@mixin background_t($background){
+  @include transition(background 0.2s linear);
+  &:hover,
+  &:active,
+  &:focus{
+    background: $background;
+    @include transition(background 0.2s linear);
+  }
+}
+
+@mixin margin($margin,$scaling_ratio){
+    @if $scaling_ratio == null {
+        $scaling_ratio: $default_scaling_ratio;
+    }
+    $args:length($margin);
+    $top:'';$right:'';$bottom:'';$left:'';
+    @if($args==1){
+        $top:_scale(nth($margin,1), $scaling_ratio); $right:$top; $bottom:$top; $left:$top;
+
+    } @else if($args==2){
+        $top:_scale(nth($margin,1), $scaling_ratio); $right: _scale(nth($margin,2),$scaling_ratio); $bottom:$top; $left:$right;
+    } @else if($args==3){
+        $top:_scale(nth($margin,1), $scaling_ratio); $right: _scale(nth($margin,2),$scaling_ratio); $bottom:_scale(nth($margin,3),$scaling_ratio); $left:$right;
+    } @else if($args==4){
+        $top:_scale(nth($margin,1), $scaling_ratio); $right: _scale(nth($margin,2),$scaling_ratio); $bottom:_scale(nth($margin,3),$scaling_ratio); $left:_scale(nth($margin,4),$scaling_ratio);;
+    }
+    margin-top : map-get($top,xs); margin-right: map-get($right,xs); margin-bottom:map-get($bottom,xs); margin-left:map-get($left,xs);
+    @include mq(sm) { margin-top : map-get($top,sm); margin-right: map-get($right,sm); margin-bottom:map-get($bottom,sm); margin-left:map-get($left,sm);}
+    @include mq(md) { margin-top : map-get($top,md); margin-right: map-get($right,md); margin-bottom:map-get($bottom,md); margin-left:map-get($left,md);}
+    @include mq(lg) { margin-top : map-get($top,lg); margin-right: map-get($right,lg); margin-bottom:map-get($bottom,lg); margin-left:map-get($left,lg);}
+}
+
+@mixin padding($padding,$scaling_ratio){
+    @if $scaling_ratio == null {
+        $scaling_ratio: $default_scaling_ratio;
+    }
+    $args:length($padding);
+    $top:'';$right:'';$bottom:'';$left:'';
+    @if($args==1){
+        $top:_scale(nth($padding,1), $scaling_ratio); $right:$top; $bottom:$top; $left:$top;
+
+    } @else if($args==2){
+        $top:_scale(nth($padding,1), $scaling_ratio); $right: _scale(nth($padding,2),$scaling_ratio); $bottom:$top; $left:$right;
+    } @else if($args==3){
+        $top:_scale(nth($padding,1), $scaling_ratio); $right: _scale(nth($padding,2),$scaling_ratio); $bottom:_scale(nth($padding,3),$scaling_ratio); $left:$right;
+    } @else if($args==4){
+        $top:_scale(nth($padding,1), $scaling_ratio); $right: _scale(nth($padding,2),$scaling_ratio); $bottom:_scale(nth($padding,3),$scaling_ratio); $left:_scale(nth($padding,4),$scaling_ratio);;
+    }
+    padding-top : map-get($top,xs); padding-right: map-get($right,xs); padding-bottom:map-get($bottom,xs); padding-left:map-get($left,xs);
+    @include mq(sm) { padding-top : map-get($top,sm); padding-right: map-get($right,sm); padding-bottom:map-get($bottom,sm); padding-left:map-get($left,sm);}
+    @include mq(md) { padding-top : map-get($top,md); padding-right: map-get($right,md); padding-bottom:map-get($bottom,md); padding-left:map-get($left,md);}
+    @include mq(lg) { padding-top : map-get($top,lg); padding-right: map-get($right,lg); padding-bottom:map-get($bottom,lg); padding-left:map-get($left,lg);}
+}

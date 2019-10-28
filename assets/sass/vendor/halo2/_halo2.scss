@@ -1,0 +1,19 @@
+.halo2-social{
+	.networks{
+		margin:0;
+		text-align: center;
+		li{
+			display: inline-block;
+		}
+	}
+	i{
+		@include scaleFontSize(30px, 0.9);
+		margin-right: 15px;
+		color:$halo2-icon-color;
+		@include transition(color 0.3s ease-out);
+		&:hover{
+			color:$halo2-icon-color-hover;
+			@include transition(color 0.3s ease-out);
+		}
+	}
+}

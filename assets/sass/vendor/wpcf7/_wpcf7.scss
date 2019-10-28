@@ -1,0 +1,30 @@
+.wpcf7-response-output{
+	border: $wpcf7-response-border !important;
+	background: $wpcf7-response-background !important;
+	color: $wpcf7-response-color !important;
+	margin: 15px 0 !important;
+}
+
+.wpcf7-form-control-wrap{
+	position: static !important;
+}
+
+.wpcf7-not-valid-tip{
+	position: absolute;
+	right: 15px;
+	top:0px;
+	font-size: 11px !important;
+}
+
+.g-recaptcha,
+.wpcf7-recaptcha{
+	@include margin(0 0 20px 0,0.90);
+}
+
+.wpcf7-checkbox-container{
+	@include margin(0 0 20px 0,0.90);
+}
+
+.wpcf7-list-item{
+	margin-left:0 !important;
+}
